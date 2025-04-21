@@ -1,0 +1,212 @@
+:root{
+    --black-color: #020912;
+    --white-color: #fcfcfc;
+    --section-color: #eff7fa;
+    --yellow-color: #ffae00;
+    --font-family: 'Courier New', Courier, monospace;
+}
+body img{
+    border: 1px solid #000;
+}
+
+ul{
+    list-style: none;
+}
+.shopify-section{
+    background: var(--black-color);
+    font-family: var(--font-family);
+}
+/* start header */
+.header{
+    background: var(--white-color);
+}
+.header img{
+    width: 200px;
+    border: none; 
+}
+.header .user,
+.header .search,
+.header .shop,
+.header .toggler{
+    font-size: 25px;
+    color: var(--yellow-color);
+    cursor: pointer;
+}
+/* end header */
+/* start nav */
+.navbar{
+    background-color: var(--white-color);
+    font-family: var(--font-family);
+}
+.navbar-nav li a{
+    transition: all 0.8s;
+}
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav .nav-link.active{
+    background-color: var(--black-color);
+    color: var(--yellow-color);
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+/* end nav */
+/* start section-top */
+
+.section{
+    height: 80vh;
+    width: auto;
+}
+
+/* .section .imge{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/Gallery/bread.webp);
+    background-position: center;
+    background-size: cover;
+} */
+/* .section .imge {
+    background: url(/gallery/bread.webp) no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.section  .p span , .buttons a{
+    font-family: var(--font-family);
+}
+.section .buttons a{
+    text-decoration: none;
+    color: var(--black-color);
+    z-index: 22;
+    background-color: var(--section-color);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.section .buttons a:hover{
+    background: transparent;
+    border: 2px solid #000;
+    color: var(--section-color);
+} */
+/* end section-top */
+/* start isolate */
+.isolate h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.isolate h4{
+    font-family: var(--font-family);
+}
+/* end isolate */
+/* star order */
+.oeder p,
+.ramadan p,
+.ratios p,
+.Special p,
+.Eclairs p,
+.oeder a,
+.Eclairs a,
+.ratios a,
+.Special a,
+.artisan .text
+{
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.oeder a{
+    transition: all .8s;
+}
+.oeder a:hover{
+    transition: all .8s;
+    transform: translatey(-20%);
+}
+.oeder img{
+    height: 10%;
+}
+/* end order */
+
+/* start Ratios */
+.ratios img{
+    width: 600px;
+    height: 600px;
+}
+/* end Ratios */
+/* start collection */
+.collection .box{
+    position: relative;
+    transition: all .8s;
+}
+
+.collection .box:hover{
+    transform: translatey(-10%);
+    transition: all .8s;
+}
+/* end collection */
+/* start highly */
+.highly img{
+    width: 500px;
+}
+/* end highly */
+/* start artisan */
+.artisan img{
+    width: 500px;
+    height: 70%;
+}
+/* end artisan */
+/* start about */
+.about img{
+    width: 250px;
+    border-radius: 50%;
+}
+.about .img-one img{
+    height: 250px;
+}
+.about p{
+    font-size: 18px;
+    line-height: 2.5rem;
+    font-family: var(--font-family);
+}
+/* end about */
+/* start foot */
+.footer img{
+    border-radius: 20%;
+}
+/* start footer */
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .copyright > span{
+    color: var(--green-color);
+}
+.footer .copyright > div span{
+    color: var(--yellow-color);
+}
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+.footer .facebook{
+    background-color: #1877f2;
+    transition: all 0.8s;
+}
+.footer .twitter{
+    background-color: #1da1f2;
+    transition: all 0.8s;
+}
+.footer .linkedin{
+    background-color: #0a66c2;
+    transition: all 0.8s;
+}
+.footer .instagram{
+    background-color: #c13584;
+    transition: all 0.8s;
+}
+.footer .facebook:hover,
+.footer .twitter:hover,
+.footer .linkedin:hover,
+.footer .instagram:hover{
+    transition: all 0.8s;
+    transform: translateY(-30%);
+}
+/* end footer */
+/* end foot */
